@@ -37,3 +37,4 @@ with open('rent.json', 'w') as write_js:
 
     js_str = ujson.dumps(profit, ensure_ascii=False,)
     print(f'Записали в файл: \n 'f' {js_str}')
+    

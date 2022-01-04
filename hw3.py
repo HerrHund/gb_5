@@ -9,3 +9,4 @@ with open('salary.txt', 'r', encoding='utf-8') as file:
         people[name] = numb
         if int(numb) < 20000:
             print(f'{name}: зарплата меньше 20000')
+

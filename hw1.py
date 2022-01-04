@@ -19,3 +19,4 @@ openFile = open('data.txt', 'r')
 print(openFile.readlines())
 openFile.close()
 
+
