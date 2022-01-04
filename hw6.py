@@ -23,3 +23,4 @@ with open("lecture.txt") as f:
             int(i) for i in data if i.isdigit()
             )
 print(endData)
+
